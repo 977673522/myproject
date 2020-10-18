@@ -10,6 +10,12 @@ import java.sql.SQLException;
 import javax.swing.JOptionPane;		
 
 //测试java database connection
+/**
+ * this is jdbc connect database
+ * now, using oracle db ,user and password needed change
+ * @author nwx
+ *
+ */
 public class TestJDBC {
   Connection con ;				//声明连接数据库对象
   String user = "ni" ;			//连接的用户
